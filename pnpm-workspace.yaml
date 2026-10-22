@@ -1,0 +1,8 @@
+packages:
+  - "apps/*"
+  - "services/*"
+  - "web/*"
+  - "packages/*"
+
+allowBuilds:
+  electron-winstaller: true

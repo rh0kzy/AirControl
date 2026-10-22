@@ -1,0 +1,13 @@
+appId: com.rh0kzy.iphonedeck
+productName: iPhoneDeck
+directories:
+  output: release
+  buildResources: build
+files:
+  - dist/**/*
+  - package.json
+linux:
+  target:
+    - AppImage
+  category: Utility
+  maintainer: rh0kzy

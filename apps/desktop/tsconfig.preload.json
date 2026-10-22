@@ -1,0 +1,10 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "outDir": "./dist/preload",
+    "rootDir": "./src/preload",
+    "types": ["node"]
+  },
+  "include": ["src/preload/**/*.ts"],
+  "references": [{ "path": "../../packages/shared" }]
+}

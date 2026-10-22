@@ -1,0 +1,10 @@
+{
+  "files": [],
+  "references": [
+    { "path": "./packages/shared" },
+    { "path": "./services/bridge" },
+    { "path": "./services/mirror" },
+    { "path": "./web/companion" },
+    { "path": "./apps/desktop" }
+  ]
+}

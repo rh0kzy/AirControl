@@ -1,0 +1,38 @@
+# dependencies
+node_modules/
+.pnpm-store/
+
+# build output
+dist/
+out/
+release/
+build/
+
+# env
+.env
+.env.*
+!.env.example
+
+# logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# editor
+.vscode/
+.idea/
+*.swp
+
+# test coverage
+coverage/
+
+# electron-builder
+*.AppImage
+
+# typescript build info
+*.tsbuildinfo

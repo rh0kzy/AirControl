@@ -1,0 +1,32 @@
+{
+  "name": "iphonedeck",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Local-only desktop tool that mirrors an iPhone screen to a Linux PC over WiFi and offers file transfer.",
+  "type": "module",
+  "scripts": {
+    "lint": "eslint .",
+    "format:check": "prettier --check .",
+    "typecheck": "tsc --build",
+    "test": "vitest run",
+    "build": "tsc --build"
+  },
+  "engines": {
+    "node": "24.22.0",
+    "pnpm": "12.14.0"
+  },
+  "packageManager": "pnpm@12.14.0",
+  "devDependencies": {
+    "typescript": "7.0.2",
+    "eslint": "10.13.0",
+    "prettier": "3.9.10",
+    "vitest": "5.0.5",
+    "@eslint/js": "10.0.1",
+    "typescript-eslint": "8.72.0",
+    "eslint-config-prettier": "10.1.8",
+    "eslint-plugin-prettier": "5.5.7",
+    "eslint-plugin-react": "7.37.5",
+    "eslint-plugin-react-hooks": "7.1.1",
+    "@types/node": "26.6.5"
+  }
+}
