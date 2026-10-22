@@ -238,19 +238,19 @@ importers:
 
   services/bridge:
     dependencies:
-      '@iphonedeck/shared':
+      '@aircontrol/shared':
         specifier: workspace:*
         version: link:../../packages/shared
 
   services/mirror:
     dependencies:
-      '@iphonedeck/shared':
+      '@aircontrol/shared':
         specifier: workspace:*
         version: link:../../packages/shared
 
   web/companion:
     dependencies:
-      '@iphonedeck/shared':
+      '@aircontrol/shared':
         specifier: workspace:*
         version: link:../../packages/shared
 

@@ -1,5 +1,5 @@
 {
-  "name": "@iphonedeck/companion",
+  "name": "@aircontrol/companion",
   "version": "0.1.0",
   "private": true,
   "type": "module",
@@ -7,6 +7,6 @@
     "typecheck": "tsc --noEmit -p ."
   },
   "dependencies": {
-    "@iphonedeck/shared": "workspace:*"
+    "@aircontrol/shared": "workspace:*"
   }
 }

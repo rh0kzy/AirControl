@@ -1,5 +1,5 @@
 {
-  "name": "iphonedeck",
+  "name": "aircontrol",
   "version": "0.1.0",
   "private": true,
   "description": "Local-only desktop tool that mirrors an iPhone screen to a Linux PC over WiFi and offers file transfer.",

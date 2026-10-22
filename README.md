@@ -1,4 +1,4 @@
-# iPhoneDeck
+# AirControl
 
 Local-only, open-source desktop tool for Linux (Windows later) that mirrors an iPhone screen to the PC over WiFi and offers file transfer.
 
